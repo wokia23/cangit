@@ -23,11 +23,11 @@ variable "privateSN_cidr_block" {
   type        = string
 }
 variable "pubrt_cidrblock" {
-  type        = string
+  type = string
 }
 
 variable "privatert_cidrblock" {
-  type        = string
+  type = string
 }
 
 variable "ec2_ami" {
